@@ -1,0 +1,248 @@
+span {
+    display: block;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: white;
+    border-bottom: 1px solid rgba(0,27,55,.1);
+    z-index: 10;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1140px;
+    width: 92%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.navi {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo {
+    width: 76px;
+    margin-left: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-menu li {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nav-menu li:hover {
+    background: rgba(2,32,71,.05);
+    height: 100%;
+    max-height: 40px;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+.nav-menu li a{
+    color: #778899;
+}
+.nav-menu li a:hover{
+    width: 120%;
+    height: 120px;
+}
+.nav-lg {
+    display: flex;
+    padding-top: 1px;
+    align-items: center;
+}
+.nav-lg li a {
+    color: #778899;
+}
+.nav-lg .ko {
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.nav-lg .en {
+    padding-left: 15px;
+}
+
+/* 섹션 1*/
+.cont-appdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.cont-appdown .bgd {
+    background-image: url(../img/toss-im-web-intro-still-start.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.cont-appdown .div-grad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, white 0%, white 59%, rgba(255, 255, 255, 0) 100%);
+}
+.cont-appdown .txt-btn-intro{
+    padding-top: 70px;
+    text-align: center;
+}
+.cont-appdown .txt-intro{
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+.cont-appdown .btn-down{
+    width: 178px;
+    height: 71px;
+    background: #3182F6;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    line-height: 1.6;
+    cursor: pointer;
+}
+/* 섹션 2  */
+.cont-intro {
+   margin: 0;
+   background: #F8F8FF;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cont-intro .txt-three {
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 1.6;
+   text-align: center;
+}
+
+/* 섹션 3 */
+.cont-home {
+    padding: 250px 0 165px 0;
+    width: 92%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cont-home .main-wrap {
+    position: relative;
+    height: 1272px;
+}
+
+.cont-home .main-wrap .tit-wrap {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    padding-left: 10%;
+    /* opacity: 0; */
+    animation: 0.5s ease-in-out 0s 1 normal forwards running ;
+}
+
+.cont-home .main-wrap .tit-wrap .tit-one {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #3182f6;
+    margin-bottom: 30px;
+    /* white-space: pre-wrap; */
+}
+
+.cont-home .main-wrap .tit-wrap .tit-two {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #191f28;
+    /* white-space: pre-wrap; */
+}
+
+.cont-home .main-wrap .img-right {
+    width: 600px;
+    height: 936px;
+    position: absolute;
+    top: -30px;
+    right: 40px;
+    /* opacity: 0; */
+    transform: translate3d(0px, 50px, 0px);
+    animation: 0.5s ease-in-out 0.5s 1 normal forwards running animation-1x3fevv;
+}
+.cont-home .main-wrap .img-phone .img-cont-one{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: 57%;
+    height: auto;
+}
+.cont-home .main-wrap .img-phone .img-phone-case-one{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-home .main-wrap .img-left {
+    width: 600px;
+    height: 936px;
+    position: absolute;
+    /* bottom: 0px; */
+    left: 36px;
+    /* opacity: 0; */
+    transform: translate3d(0px, 50px, 0px);
+    animation: 0.5s ease-in-out 1s 1 normal forwards running animation-1x3fevv;
+}
+.cont-home .main-wrap .img-left .img-cont-two {
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    width: 57%;
+    height: auto;
+}
+.cont-home .main-wrap .img-left .img-phone-case-two {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-home .main-wrap .exp-toss {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(51, 61, 75);
+    position: absolute;
+    right: 13%;
+    bottom: 15%;
+    /* opacity: 0; */
+    transform: translate3d(0px, 50px, 0px);
+    animation: 0.5s ease-in-out 1.5s 1 normal forwards running animation-1x3fevv;
+    /* white-space: pre-wrap; */
+    /* 준홍님이 프리뤱말고 딴거 넣으면 된댔는데...뭐였지? */
+}
+
+
+
+
+
+
+
+
