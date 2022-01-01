@@ -525,6 +525,7 @@ border-radius: 26px;
 
 .p-footer .p-footer_inner .cont-link {
     display: flex;
+    padding-bottom: 50px;
 }
 
 .p-footer .p-footer_inner .cont-link .link-list {
@@ -547,6 +548,45 @@ border-radius: 26px;
     color: #6B7684;
 }
 
+.p-footer .address {
+    color: #8b95a1;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.p-footer .address .tit-address {
+    color: #b0b8c1;
+    display: block;
+    font-size: 15px;
+    padding-bottom: 16px;
+}
+
+.p-footer .p-footer_term-wrapper {
+    display: flex;
+    padding: 24px 0 30px;
+
+}
+
+.p-footer .p-footer_term-wrapper .p-footer__term{
+    padding-right: 17px;
+
+}
+
 .p-footer_term-wrapper a {
-    color: white;
+    color: #6B7684;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.p-footer_term-wrapper .dark{
+    color: #b0b8c1;
+}
+
+/* .pre {
+    white-space: pre-line;
+} */
+
+.p-footer .p-footer_social-list {
+    display: flex;
+    gap: 0.5rem;
 }
